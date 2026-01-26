@@ -1,1 +1,27 @@
-Da
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .tekst-okvir{
+            background-color: rgba(0,0,0,0.6);
+        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pozadina u boji</h1>
+    <div class="blok-boja">
+    <h2>Pozadina u boji</h2>
+    <p>Ovo je primjer pozadine koja ima jednu boju</p>
+    </div>
+    <div class="blok-gradient">
+     <h2>Pozadina s gradientom</h2>
+    <p>Gradient omogućuje prijelaz između više boja</p>
+    </div>
+    <div class="blok-slika">
+         <h2>Pozadina sa slikom</h2>
+    <p>kada koristimo sliku za pozadinu moramo paziti na čitljivost teksta</p>
+    </div>
+    </body>
+</html>
