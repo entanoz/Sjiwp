@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  min-height: 900px;
+  background: linear-gradient(135deg, #adeead, #f59c9c);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #ff0202;
+  padding: 24px;
+}
+
+.cestitka {
+  width: min(720px, 100%);
+  background-color: #b5dda2;
+  border-radius: 18px;
+  padding: 26px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+  border-top: 10px solid #ad1457;;
+  border-bottom: 10px solid #ad1457;;
+  border-right: 10px solid #ad1457;;
+  border-left: 10px solid #ad1457;;
+  position: relative;
+}
+
+.zaglavlje {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.mali-tekst {
+  margin: 0 0 6px 0;
+  font-size: 12px;
+  letter-spacing: 2px;    
+  text-transform: uppercase;
+  text-align: left;
+  color: #525151;
+}
+
+h1 {
+  margin: 0;
+  font-size: 34px;        
+  letter-spacing: 1px;
+  color: #ad1414;
+}
+
+.podnaslov {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  line-height: 1.7;       
+  color: #333;
+}
+
+.blok {
+  padding: 18px;
+  border-radius: 14px;
+  margin: 14px 0;
+}
+
+.blok h2 {
+  margin: 0 0 8px 0;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: #ad1457;
+}
+
+.blok p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: left;        
+}
+
+.boja {
+  background-color: #dfffdf;  
+  border: 1px solid #f8a8a8;
+}
+
+.gradijent {
+  background: linear-gradient(90deg, #b5dda2, #fcb5b5);
+}
+
+.slika {
+  background-image: url("WP.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.86);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.potpis {
+  text-align: right;
+  margin-top: 12px;
+  font-style: italic;
+  color: #555;
+}
