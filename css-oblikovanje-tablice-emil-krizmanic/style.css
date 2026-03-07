@@ -39,6 +39,12 @@ h2 {
   color: #000000;
 }
 
+hr {
+  border-top: 2px solid dodgerblue;
+  border-bottom: 2px solid dodgerblue;
+  border-left: 2px solid dodgerblue;
+  border-right: 2px solid dodgerblue;
+}
 
 table {
   width: 100%;
@@ -91,3 +97,8 @@ tr:hover td {
   font-style: italic;
   color: #575757;
 }
+
+a{
+  color: rgb(255, 255, 255);
+}
+

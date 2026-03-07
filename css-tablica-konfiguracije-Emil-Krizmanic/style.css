@@ -101,6 +101,9 @@ button:hover{
     padding: 10px;
      color: #000000
 }
+a{
+  color: rgb(0, 0, 0);
+}
 
 .potpis {
   text-align: right;
